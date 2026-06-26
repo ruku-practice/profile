@@ -129,6 +129,19 @@ body {
     color: var(--text-secondary);
 }
 
+.link-group-title {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    text-align: left;
+}
+
 @media (max-width: 480px) {
     .profile-card {
         padding: 2rem 1.5rem;
